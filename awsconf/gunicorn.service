@@ -6,7 +6,7 @@ After=network.target
 [Service]
 User=ubuntu
 Group=www-data
-WorkingDirectory=/home/ubuntu/04-01-2023
+WorkingDirectory=/home/ubuntu/shop-aws
 ExecStart=/home/ubuntu/venv/bin/gunicorn \
           --access-logfile - \
           --workers 3 \
